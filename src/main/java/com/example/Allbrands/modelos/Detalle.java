@@ -12,4 +12,13 @@ public class Detalle {
     private Integer id;
     private Integer costoTotal;
     private Integer cantidadProductos;
+
+    public Detalle() {
+    }
+
+    public Detalle(Integer id, Integer costoTotal, Integer cantidadProductos) {
+        this.id = id;
+        this.costoTotal = costoTotal;
+        this.cantidadProductos = cantidadProductos;
+    }
 }

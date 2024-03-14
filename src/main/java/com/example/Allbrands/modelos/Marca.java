@@ -14,4 +14,14 @@ public class Marca {
     private String nombre;
     private LocalDate anoDeCreacion;
     private String sedePrincipal;
+
+    public Marca() {
+    }
+
+    public Marca(Integer id, String nombre, LocalDate anoDeCreacion, String sedePrincipal) {
+        this.id = id;
+        this.nombre = nombre;
+        this.anoDeCreacion = anoDeCreacion;
+        this.sedePrincipal = sedePrincipal;
+    }
 }

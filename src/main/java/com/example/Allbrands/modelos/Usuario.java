@@ -23,5 +23,22 @@ public class Usuario {
     private String municipio;
     private Integer codigoPostal;
 
+    public Usuario() {
+    }
 
+    public Usuario(Integer id, String nombres, String apellidos, String cedula, String correo, Integer telefono, String direccion, String sexo, String medioDePago, String pais, String departamento, String municipio, Integer codigoPostal) {
+        this.id = id;
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.cedula = cedula;
+        this.correo = correo;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.sexo = sexo;
+        this.medioDePago = medioDePago;
+        this.pais = pais;
+        this.departamento = departamento;
+        this.municipio = municipio;
+        this.codigoPostal = codigoPostal;
+    }
 }

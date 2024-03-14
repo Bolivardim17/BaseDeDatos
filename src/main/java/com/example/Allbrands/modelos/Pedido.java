@@ -11,4 +11,12 @@ public class Pedido {
 
     private Integer id;
     private String nombre;
+
+    public Pedido() {
+    }
+
+    public Pedido(Integer id, String nombre) {
+        this.id = id;
+        this.nombre = nombre;
+    }
 }
